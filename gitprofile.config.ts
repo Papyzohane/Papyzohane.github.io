@@ -32,7 +32,6 @@ const CONFIG = {
         },
       ],
     },
-  },
   seo: {
     title: 'Portfolio de Moustapha Mbaye',
     description: '',
