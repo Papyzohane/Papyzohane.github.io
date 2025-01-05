@@ -52,11 +52,12 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio de Moustapha Mbaye',
     description: '',
     imageURL: '',
   },
   social: {
+    basedin: 'ffff',
     linkedin: 'ariful-alam',
     twitter: 'arif_szn',
     mastodon: '',
