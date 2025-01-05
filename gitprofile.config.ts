@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio de Moustapha Mbaye',
+    title: 'Portfolio of Ariful Alam',
     description: '',
     imageURL: '',
   },
