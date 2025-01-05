@@ -10,24 +10,6 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-  projects: {
-    github: {
-      display: true, // Display GitHub projects?
-      header: 'Portfolio',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
-    },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
@@ -57,7 +39,6 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    basedin: 'ffff',
     linkedin: 'ariful-alam',
     twitter: 'arif_szn',
     mastodon: '',
@@ -74,7 +55,7 @@ const CONFIG = {
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
+    telegram: '0749387056',
     website: 'https://www.papyzohane.github.io',
     phone: '',
     email: 'moustapha.mbaye@etu.univ-st-etienne.fr',
@@ -114,6 +95,12 @@ const CONFIG = {
       degree: 'BUT Réseaux Télécoms',
       from: 'Septembre 2023',
       to: 'En cours',
+    },
+    {
+      institution: 'Prytanée Militaire de Saint-Louis',
+      degree: 'Baccalaureat scientifique',
+      from: 'Septembre 2016',
+      to: 'Juillet 2023',
     },
   ],
   publications: [
