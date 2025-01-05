@@ -100,7 +100,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Domino's Pizza',
+      company: 'Dominos Pizza',
       position: 'Roanne',
       from: 'Janvier 2024',
       to: 'Mai 2024',
